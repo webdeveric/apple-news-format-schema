@@ -1,5 +1,5 @@
 {
-  "name": "@lonelyplanet/apple-news-format-schema",
+  "name": "@webdeveric/apple-news-format-schema",
   "version": "1.4.0",
   "private": true,
   "license": "MIT",
@@ -7,7 +7,7 @@
   "main": "docs/schema.json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lonelyplanet/apple-news-format-schema.git"
+    "url": "git+https://github.com/webdeveric/apple-news-format-schema.git"
   },
   "keywords": [
     "Apple",
@@ -17,26 +17,26 @@
     "schema"
   ],
   "author": {
-    "email": "eric.king@lonelyplanet.com",
+    "email": "eric@webdeveric.com",
     "name": "Eric King",
     "url": "http://webdeveric.com/"
   },
   "bugs": {
-    "url": "https://github.com/lonelyplanet/apple-news-format-schema/issues"
+    "url": "https://github.com/webdeveric/apple-news-format-schema/issues"
   },
-  "homepage": "https://github.com/lonelyplanet/apple-news-format-schema#readme",
+  "homepage": "https://github.com/webdeveric/apple-news-format-schema#readme",
   "scripts": {
     "lint": "eslint --fix test",
     "test": "mocha --colors"
   },
   "devDependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.6",
     "chai": "^4.2.0",
-    "eslint": "^6.7.2",
-    "eslint-config-webdeveric": "^0.4",
-    "fs-extra": "^8.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-webdeveric": "^0.7.0",
+    "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
-    "mocha": "^6.2.2",
-    "request": "^2.88.0"
+    "mocha": "^8.2.1",
+    "request": "^2.88.2"
   }
 }

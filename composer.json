@@ -1,5 +1,5 @@
 {
-  "name": "lonelyplanet/apple-news-format-schema",
+  "name": "webdeveric/apple-news-format-schema",
   "description": "Apple News Format schema",
   "type": "library",
   "license": "MIT",
@@ -13,15 +13,15 @@
   "authors": [
     {
       "name": "Eric King",
-      "email": "eric.king@lonelyplanet.com",
+      "email": "eric@webdeveric.com",
       "homepage": "http://webdeveric.com",
       "role": "Developer"
     }
   ],
-  "homepage": "https://github.com/lonelyplanet/apple-news-format-schema#readme",
+  "homepage": "https://github.com/webdeveric/apple-news-format-schema#readme",
   "autoload": {
     "psr-4": {
-      "LonelyPlanet\\AppleNewsFormat\\": "src/"
+      "webdeveric\\AppleNewsFormat\\": "src/"
     }
   }
 }
