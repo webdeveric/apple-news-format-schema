@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://lonelyplanet.github.io/apple-news-format-schema/schema.json",
+  "$id": "https://webdeveric.github.io/apple-news-format-schema/schema.json",
   "title": "Apple News Format schema",
   "description": "Describes article.json",
   "type": "object",

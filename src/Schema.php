@@ -1,9 +1,9 @@
 <?php
 /**
- * @author Eric King <eric.king@lonelyplanet.com>
+ * @author Eric King <eric@webdeveric.com>
  */
 
-namespace LonelyPlanet\AppleNewsFormat;
+namespace webdeveric\AppleNewsFormat;
 
 /**
  * This class provides some helper methods.

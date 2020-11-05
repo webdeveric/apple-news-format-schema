@@ -1,10 +1,10 @@
 # Apple News Format schema
 
-[![Build Status](https://travis-ci.org/lonelyplanet/apple-news-format-schema.svg?branch=master)](https://travis-ci.org/lonelyplanet/apple-news-format-schema)
+[![Build Status](https://travis-ci.org/webdeveric/apple-news-format-schema.svg?branch=master)](https://travis-ci.org/webdeveric/apple-news-format-schema)
 
 This schema describes the Apple News Format (`article.json` documents).
 
-https://lonelyplanet.github.io/apple-news-format-schema/schema.json
+https://webdeveric.github.io/apple-news-format-schema/schema.json
 
 ## Tests
 
