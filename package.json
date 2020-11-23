@@ -30,10 +30,10 @@
     "test": "mocha --colors"
   },
   "devDependencies": {
+    "@webdeveric/eslint-config": "^0.1.0",
     "ajv": "^6.12.6",
     "chai": "^4.2.0",
     "eslint": "^7.12.1",
-    "eslint-config-webdeveric": "^0.7.0",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "mocha": "^8.2.1",
