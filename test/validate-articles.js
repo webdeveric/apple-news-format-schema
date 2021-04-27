@@ -5,6 +5,7 @@ const util = require('util');
 const { assert } = require('chai');
 const glob = require('glob');
 const Ajv = require('ajv');
+const addFormats = require('ajv-formats');
 const schema = require('../docs/schema.json');
 const { loadSchema } = require('./helpers');
 const validArticles = path.join( __dirname, 'fixtures', 'valid', '*.json' );
@@ -17,8 +18,9 @@ describe('Apple News Format schema', () => {
   before( done => {
     const ajv = new Ajv({
       loadSchema,
-      extendRefs: 'fail',
     });
+
+    addFormats( ajv );
 
     ajv.addMetaSchema( require('ajv/lib/refs/json-schema-draft-06.json') );
 
@@ -26,7 +28,7 @@ describe('Apple News Format schema', () => {
       validate = func;
       done();
     }).catch(
-      console.error.bind(console)
+      console.error.bind(console),
     );
   });
 
