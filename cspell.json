@@ -1,0 +1,38 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "words": [
+    "animatable",
+    "arkit",
+    "datatable",
+    "demi",
+    "demibold",
+    "embedvideo",
+    "embedwebvideo",
+    "extralight",
+    "htmltable",
+    "pullquote",
+    "semibold",
+    "strikethrough",
+    "ultrabold",
+    "usdz",
+    "vmax",
+    "vmin",
+    "webdeveric"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    "package-lock.json",
+    "node_modules/**",
+    "test/fixtures/**"
+  ],
+  "dictionaries": [
+    "named-colors"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "named-colors",
+      "path": "./dictionary/named-colors.txt"
+    }
+  ]
+}
