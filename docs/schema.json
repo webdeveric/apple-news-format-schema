@@ -367,7 +367,7 @@
       "format": "uri"
     },
     "colorStop": {
-      "typpe": "object",
+      "type": "object",
       "additionalProperties": false,
       "properties": {
         "color": {
